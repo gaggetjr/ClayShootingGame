@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void gameStart() {
         score = 0;
-        tvScore.setText("점수 : " + score);
+        tvScore.setText("점수 : " + score); // 포함 점수추가
 
         iv_clay.setVisibility(View.VISIBLE);
 
